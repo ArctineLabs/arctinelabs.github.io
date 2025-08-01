@@ -9,12 +9,43 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
 </head>
 
 <body style="background-image: url('https://github.com/KDE/plasma-workspace-wallpapers/blob/master/Autumn/contents/images/2560x1600.jpg?raw=true');" class="desk">
+	<style>
+		.icon {
+			height: 2rem;
+			width: auto;
+		}
+
+		.title {
+		  	display: flex;
+		  	flex-wrap: wrap;
+		  	gap: 1rem;
+		  	align-items: center;
+		  	line-height: 1.2; /* or just remove it */
+		}
+
+		.title h1 {
+		  	margin: 0; /* avoid default top/bottom margin */
+		  	word-break: break-word;
+		  	white-space: normal;
+		  	line-height: 1.2;
+			font-family: Inter;
+			font-weight: normal;
+		}
+		.title b {
+			font-family: Inter;
+		}
+
+	</style>
 	<div class="window">
-		<h1> Arctine Labs </h1>
+		<div class="title">
+			<img src="/assets/Logo.svg" class="icon">
+			<h1> <b>Arctine</b> Labs </h1>
+		</div>
 		<p>An international developer team, with a community of tech enthusiasts.</p>
 		<h3>about us</h3>
 		<p>Arctine is a developer team with people across the globe like Switzerland, Canada, Turkey etc.</p>
